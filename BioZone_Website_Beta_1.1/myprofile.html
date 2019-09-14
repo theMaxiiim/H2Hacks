@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+<title>My Account | BioZone</title>
+</head>
+
+<body style="background-color: #7ED3B6; font-family: arial; color: white; ">
+<img style="width: 200px;"src="logo.png"></img>
+<h1>My Account</h1><h2>
+Username:<span id="currentusername">username goes here</span><br>
+Email:<span id="currentemail">email goes here</span><br>
+Gender:<span id="currentgender">email goes here</span><br>
+Birthday:M-<span id="currentmonth"> D-<span id="currentday"> Y-<span id="currentyear">
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+<h1>Edit Account Settings</h1>
+Username (Maximum Length 20 Characters)<br>
+<input style="height: 35px; font-size: 20px; " type="text" name="changeusername" maxlength="20"><br>
+Password (Maximum Length 20 Characters)<br>
+<input style="height: 35px; font-size: 20px; " type="password" name="changepassword" maxlength="20"><br>
+Email<br>
+<input style="height: 35px; font-size: 20px; " type="text" name="changeemail"><br>
+Gender<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+    <input type="radio" name="gender" value="nosay"> I perfer not to say<br>
+Birthday<br>
+<input type="number" name="changemonth" min="1" max="12" placeholder="month">
+<input type="number" name="changeday" min="1" max="31" placeholder="day">
+<input type="number" name="changeyear" min="1900" max="2050" placeholder="year"><br><br>
+<button onclick="">Submit</button>
+<a href="homepage.html"><button>Home</button></a>
+</body>
+</html>
