@@ -1,0 +1,118 @@
+<! doctype html>
+<html>
+
+<head>
+<title>Hompage | BioZone</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background: rgba(76, 175, 80, 0)
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #DEE5E5;
+  z-index: 1;
+  right: 0;
+  width: 250px;
+  height: 180px;
+}
+
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #149676;
+}
+
+.btn1:hover {
+  background-color: #149676;
+}
+
+/* btn1 stley */
+.btn1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background: rgba(76, 175, 80, 0)
+}
+
+.btn2:hover {
+  background-color: #149676;
+}
+
+/* btn2 stley */
+.btn2 {
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #17B890;
+  border-radius: 5px;
+}
+.imgnature {
+  background: url(nature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+</style>
+</head>
+
+<body style="background-color: #7ED3B6; font-family: arial; color: white; ">
+
+<div style="width: 100%; height: 1080px; position: absolute; left: 0px; top: 50px;" class="imgnature"></div>
+
+<div style="position: relative; top: 1130px; height: 400px;">
+	<div style="position: relative; left: 50%; margin-left: -500px; width: 1000px; height: 400px;">
+		<div style="position: absolute; top: 50%; margin-top: -20px; left: 0px;">
+				<span style="font-size: 40px;">About BioZone</span>
+		</div>
+		<div style="position: absolute; top: 50%; margin-top: -100px; right: 0px; width: 450px; text-align: justify;">
+				<span style="font-size: 20px; text-align:">BioZone is an application that you can use to better the world by participating in conservation projects in your area. Within the app, you can see all the projects happening near you. When you help out at a project, you can gain points (and the satisfaction of keeping your earth clean). Helping with conservation projects in your area, no matter how small, can help the enviornment and assist in slowing down global warming,</span>
+		</div>
+	</div>
+</div>
+
+
+<div style="background-color: #17B890; position: fixed; right: 0px; top: 0px; width: 100%; height: 50px;">
+	<image src="logo.png" style="height: 50px;"></image>
+<div style="position: absolute; right: 0px; top: 0px;" class="dropdown">
+  <button class="dropbtn">Login</button>
+  <div class="dropdown-content">
+		<input style="height: 35px; position: absolute; left: 35px; top: 25px; font-size: 20px; width: 175px;" type="text" name="FirstName" placeholder="Username"><br>
+		<input style="height: 35px; position: absolute; left: 35px; top: 65px; font-size: 20px; width: 175px;" type="text" name="LastName" placeholder="Password"><br>
+		<a href=""><button style=" position: absolute; right: 35px; top: 120px;" class="btn2" >Contunue</button></a>
+		<span style="color: black; position: absolute; top: 105px; left: 35px; font-size: 10px;">No account?<a href="/register_page.html">Register Now</a></span>
+
+  </div>
+</div>
+</div>
+
+
+
+</body>
+
+</html>
